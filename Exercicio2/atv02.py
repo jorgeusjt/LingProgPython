@@ -7,12 +7,19 @@
 lista=[]
 lista2=[]
 count=0
-while count < 3 :
-	numeros = int(input("Insira na primeira lista: "))
-	numeros2 = int(input("Insira na segunda lista: "))
+count1=0
+while count < 4 :
+	numeros = int(input("Insira na 1º lista: "))
 	lista.append(numeros)
-	lista2.append(numeros2)
 	count +=1
-print (lista,lista2)
-print(lista==lista2)
+
+print("\n")
+
+while count1 < 4 :
+	numeros2 = int(input("Insira na 2º lista: "))
+	lista2.append(numeros2)
+	count1 +=1
+
+print ("\n listas:", lista,lista2)
+print("As listas são iguais: " ,lista==lista2)
 

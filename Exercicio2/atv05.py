@@ -4,7 +4,7 @@
 # a vogal considerada.
 
 
-string = "nusum oasum, cacilds vidis litro aetrs"
+string = (input("Digite alga palavra: "))
 dict = {'a':string.count('a'), 'e':string.count('e'), 'i':string.count('i'), 'o':string.count('o'), 'u':string.count('u')}
 
 print(dict) 

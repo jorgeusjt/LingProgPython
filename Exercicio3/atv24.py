@@ -20,6 +20,7 @@ cidades = {
     "cidade2": [607, 3],
     "cidade3": [450, 2],
     "cidade4": [12045, 47]
+    
 }
 
 menorIndice = [cidades["cidade0"][0], cidades["cidade0"][1]]

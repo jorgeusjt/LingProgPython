@@ -17,6 +17,7 @@
 
 
 
+
 dividaInicial = float(input("Insira o valor da dívida: "))
 print("Dívida \t Valor Juros \t Qtde Parcelas \t Valor da Parcela")
 for i in range(0, 5):

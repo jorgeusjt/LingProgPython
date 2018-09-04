@@ -12,8 +12,10 @@
 # 50 - R$ 9.00
 
 
+
 preco = float(input("Digite o preço do pão: "))
 print("Tabela de preços")
 for num in range(1, 51):
     total = num * preco
     print("%s - R$ %.2f" % (num, total))
+

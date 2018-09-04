@@ -18,6 +18,7 @@
 # Troco: R$ 11.00
 
 
+
 total = 0
 preco = -1
 i = 0

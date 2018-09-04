@@ -16,6 +16,7 @@
 
 
 
+
 for num in range(1, 51):
     preco = num * 1.99
     print(f"{num} - R$ {preco}")

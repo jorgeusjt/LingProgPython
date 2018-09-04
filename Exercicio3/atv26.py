@@ -16,5 +16,6 @@ for n in range(1, termo + 1):
         somaStr += " + "
     m += 2
 
+
 print(somaStr)
 print('Soma da série: %s' % s)

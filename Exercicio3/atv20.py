@@ -8,3 +8,4 @@ fatorial = int(input("Fatorial de: "))
 for i in range(1, fatorial):
     fatorial = fatorial * i
 print(fatorial)
+

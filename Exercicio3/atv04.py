@@ -1,16 +1,15 @@
 # 4. Faça um Programa que leia três números e mostre-os em ordem
 # decrescente.
 
-contador =0
+contador =1
 lista = []
 
 
-while contador< 3:
-	numero = int(input("Digite a segunda nota: "))
+while contador< 4:
+	numero = int(input('Digite a %sº nota:' %contador))
 	contador +=1 
 	lista.append(numero)
 
-listaReversa = sorted(lista,reverse=True)
-print(listaReversa)
-for numeros in listaReversa:
-	print (numeros)
+	lista.sort()
+for n in reversed(lista):
+    print(n)

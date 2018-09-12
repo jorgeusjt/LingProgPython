@@ -16,16 +16,21 @@ kgMorg = float(input("Insira a quantidade em kg de morangos: "))
 kgMaca = float(input("Insira a quantidade em kg de maçãs: "))
 
 if kgMorg < 5:
-    preco += kgMorg * 2.50
+    total_morango = kgMorg * 2.5
 else:
-    preco += kgMorg * 2.20
+    total_morango= kgMorg * 2.2
     
 if kgMaca < 5:
-    preco += kgMaca * 1.80
+    total_maca = kgMaca * 1.8
+    total = total_morango + total_maca
 else:
-    preco += kgMaca * 1.50
+    total_maca = kgMaca * 1.5
+    total = total_morango + total_maca
     
-if preco > 25.00:
-    preco *= 0.90
+if total > 25.00:
+    total *= 0.90
 
-print('Valor a ser pago: ', preco)
+    
+print ('Valor do Morango: ', total_morango)
+print ('Valor da maça: ', total_maca)
+print('Valor total: ', total)
